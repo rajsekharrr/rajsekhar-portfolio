@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rajsekhar Singha Roy — Portfolio</title>
+  <meta name="description" content="Portfolio of Rajsekhar Singha Roy — AI/ML and full‑stack projects, experience, and skills." />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // Tailwind config for fonts if needed
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", "ui-sans-serif", "system-ui", "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", "sans-serif"]
+          }
+        }
+      },
+      darkMode: "class"
+    }
+  </script>
+  <style>
+    /* Print-friendly resume styles */
+    @media print {
+      .no-print { display: none !important; }
+      section { page-break-inside: avoid; }
+      a { text-decoration: none; color: black; }
+      body { color: black; }
+    }
+  </style>
+</head>
+<body class="bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100 font-sans">
+  <!-- Navbar -->
+  <header class="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:supports-[backdrop-filter]:bg-slate-950/60 border-b border-slate-200/60 dark:border-slate-800/60">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#" class="font-extrabold text-xl tracking-tight">RSR<span class="sr-only">Home</span></a>
+      <nav class="hidden md:flex items-center gap-6">
+        <a href="#about" class="hover:opacity-80">About</a>
+        <a href="#experience" class="hover:opacity-80">Experience</a>
+        <a href="#projects" class="hover:opacity-80">Projects</a>
+        <a href="#skills" class="hover:opacity-80">Skills</a>
+        <a href="#contact" class="hover:opacity-80">Contact</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <button id="theme-toggle" class="rounded-xl border px-3 py-1 text-sm hover:shadow no-print" aria-label="Toggle theme">Theme</button>
+        <a id="resume-link" href="#" class="rounded-xl border px-3 py-1 text-sm hover:shadow no-print">Download Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="max-w-5xl mx-auto px-4 pt-10 md:pt-16">
+    <div class="grid md:grid-cols-3 gap-6 items-center">
+      <div class="md:col-span-2">
+        <h1 class="text-3xl md:text-5xl font-extrabold leading-tight">
+          Rajsekhar Singha Roy
+        </h1>
+        <p class="mt-2 text-lg md:text-xl text-slate-600 dark:text-slate-300">
+          CSE (AI/ML) @ VIT Chennai • Noida, India • he/him
+        </p>
+        <p class="mt-6 text-base md:text-lg">
+          I’m a design‑minded engineer exploring AI/ML, LLMs and product‑centric development. I love crafting
+          simple interfaces that hide complex systems — from RAG chatbots to data pipelines — and shipping
+          end‑to‑end solutions that are fast, usable, and a little bit delightful.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a id="link-github" href="#" target="_blank" class="rounded-xl border px-4 py-2 hover:shadow">GitHub</a>
+          <a id="link-linkedin" href="#" target="_blank" class="rounded-xl border px-4 py-2 hover:shadow">LinkedIn</a>
+          <a href="#contact" class="rounded-xl bg-slate-900 text-white dark:bg-white dark:text-slate-900 px-4 py-2 hover:opacity-90">Contact</a>
+        </div>
+      </div>
+      <div class="md:col-span-1">
+        <div class="rounded-3xl border p-5 shadow-sm">
+          <div class="text-sm text-slate-500 dark:text-slate-400">Now</div>
+          <div class="mt-2 text-base">
+            CSE with AI/ML specialization at VIT Chennai, building with Python, Next.js, and Postgres.
+          </div>
+          <dl class="mt-4 text-sm">
+            <div class="flex justify-between border-t py-2">
+              <dt>Location</dt><dd>Noida, India</dd>
+            </div>
+            <div class="flex justify-between border-t py-2">
+              <dt>Phone</dt><dd>+91 9988877689</dd>
+            </div>
+            <div class="flex justify-between border-t py-2">
+              <dt>Email</dt><dd><a href="mailto:royrajsekhar.is@gmail.com" class="underline">royrajsekhar.is@gmail.com</a></dd>
+            </div>
+            <div class="flex justify-between border-t py-2">
+              <dt>Pronouns</dt><dd>he/him</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-5xl mx-auto px-4 mt-16">
+    <h2 class="text-2xl md:text-3xl font-bold">About</h2>
+    <p class="mt-4 leading-7 text-slate-700 dark:text-slate-300">
+      I like to sit where design meets engineering. My focus areas are LLMs, retrieval, and
+      ML‑driven products that feel intuitive on the surface and powerful underneath. I’ve been
+      prototyping with Python, FastAPI, Next.js, and vector databases; exploring prompt engineering,
+      evaluation, and lightweight fine‑tuning. When I’m not tweaking latency or typography, you’ll
+      find me sketching interfaces or reading about product strategy.
+    </p>
+  </section>
+
+  <!-- Experience & Certifications -->
+  <section id="experience" class="max-w-5xl mx-auto px-4 mt-16">
+    <h2 class="text-2xl md:text-3xl font-bold">Experience & Certifications</h2>
+    <div class="mt-6 space-y-6">
+      <article class="rounded-2xl border p-5 shadow-sm">
+        <header class="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+          <h3 class="text-xl font-semibold">OCI Generative AI Learning Path — Oracle India Private Limited</h3>
+          <span class="text-sm text-slate-500">May 20, 2025 – July 10, 2025</span>
+        </header>
+        <p class="mt-2 text-slate-700 dark:text-slate-300">
+          This program gave me hands‑on exposure to AI, Machine Learning, Deep Learning, and Generative AI on Oracle Cloud Infrastructure (OCI).
+        </p>
+        <ul class="mt-3 list-disc pl-5 space-y-1">
+          <li>Fundamentals of AI, ML, DL & Generative AI</li>
+          <li>Large Language Models (LLMs), fine‑tuning & multimodal capabilities</li>
+          <li>Oracle AI Stack & OCI Generative AI Services</li>
+          <li>Built a RAG‑based chatbot on OCI</li>
+        </ul>
+      </article>
+
+      <article class="rounded-2xl border p-5 shadow-sm">
+        <header class="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+          <h3 class="text-xl font-semibold">Highlights & Leadership</h3>
+        </header>
+        <ul class="mt-3 list-disc pl-5 space-y-1">
+          <li>Selected among top 60 teams for Google DevsHouse 2025, Chennai.</li>
+          <li>Event management team member for YOYAGE 2025 at VIT Chennai.</li>
+          <li>Design Team Lead at Wakhra Punjab Club.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="max-w-5xl mx-auto px-4 mt-16">
+    <div class="flex items-end justify-between gap-2">
+      <h2 class="text-2xl md:text-3xl font-bold">Projects</h2>
+      <a id="projects-github" href="#" target="_blank" class="text-sm underline">See more on GitHub</a>
+    </div>
+    <div id="projects-grid" class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="max-w-5xl mx-auto px-4 mt-16">
+    <h2 class="text-2xl md:text-3xl font-bold">Skills</h2>
+    <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="rounded-2xl border p-4">
+        <h3 class="font-semibold">AI/ML & GenAI</h3>
+        <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">LLMs, RAG, Prompt Engineering, Evaluation, Fine‑tuning basics, OpenAI APIs, LangChain, Embeddings.</p>
+      </div>
+      <div class="rounded-2xl border p-4">
+        <h3 class="font-semibold">Cloud & DevOps</h3>
+        <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">AWS, OCI, Docker, Linux, Git, CI/CD fundamentals.</p>
+      </div>
+      <div class="rounded-2xl border p-4">
+        <h3 class="font-semibold">Backend</h3>
+        <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">Python, FastAPI, Node.js, REST, WebSockets, Postman.</p>
+      </div>
+      <div class="rounded-2xl border p-4">
+        <h3 class="font-semibold">Frontend</h3>
+        <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">HTML, CSS, Tailwind, React/Next.js, UI/UX fundamentals.</p>
+      </div>
+      <div class="rounded-2xl border p-4">
+        <h3 class="font-semibold">Data & Storage</h3>
+        <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">PostgreSQL, pgvector/FAISS, Prisma/SQL, Redis, S3/Object Storage.</p>
+      </div>
+      <div class="rounded-2xl border p-4">
+        <h3 class="font-semibold">CS Fundamentals</h3>
+        <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">DSA, OOP, Networking basics, Systems thinking.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-5xl mx-auto px-4 mt-16 mb-24">
+    <h2 class="text-2xl md:text-3xl font-bold">Contact</h2>
+    <div class="mt-4">
+      <p>Want to collaborate or discuss internships? Reach out:</p>
+      <ul class="mt-3 space-y-1">
+        <li>Email: <a href="mailto:royrajsekhar.is@gmail.com" class="underline">royrajsekhar.is@gmail.com</a></li>
+        <li>Phone: <a href="tel:+919988877689" class="underline">+91 9988877689</a></li>
+        <li>Location: Noida, India</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="border-t border-slate-200/60 dark:border-slate-800/60 py-8">
+    <div class="max-w-5xl mx-auto px-4 text-sm text-slate-500 dark:text-slate-400">
+      © <span id="year"></span> Rajsekhar Singha Roy. Built with Tailwind. Deployed on your platform of choice.
+    </div>
+  </footer>
+
+  <script>
+    // Load config and projects
+    async function loadData() {
+      const [cfgRes, projRes] = await Promise.all([
+        fetch("site.config.json"),
+        fetch("projects.json")
+      ]);
+      const cfg = await cfgRes.json();
+      const projs = await projRes.json();
+
+      document.title = cfg.name + " — Portfolio";
+      document.querySelector("h1").textContent = cfg.name;
+      document.querySelector("#projects-github").href = cfg.links.github || "#";
+      document.querySelector("#link-github").href = cfg.links.github || "#";
+      document.querySelector("#link-linkedin").href = cfg.links.linkedin || "#";
+      if (cfg.links.resume_pdf) {
+        document.querySelector("#resume-link").href = cfg.links.resume_pdf;
+      } else {
+        document.querySelector("#resume-link").addEventListener("click", (e)=>{
+          e.preventDefault();
+          window.print();
+        });
+      }
+
+      // Projects grid
+      const grid = document.getElementById("projects-grid");
+      grid.innerHTML = "";
+      projs.forEach(p => {
+        const card = document.createElement("a");
+        card.href = p.link || "#";
+        card.target = "_blank";
+        card.className = "group rounded-2xl border p-5 hover:shadow transition";
+        card.innerHTML = `
+          <div class="text-lg font-semibold group-hover:underline">${p.title}</div>
+          <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">${p.description}</p>
+          <div class="mt-3 text-xs opacity-70">Open ↗</div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    // Theme toggle (persist in localStorage)
+    (function () {
+      const root = document.documentElement;
+      const saved = localStorage.getItem("theme");
+      if (saved === "dark" || (!saved && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+        root.classList.add("dark");
+      }
+      document.getElementById("theme-toggle").addEventListener("click", () => {
+        root.classList.toggle("dark");
+        localStorage.setItem("theme", root.classList.contains("dark") ? "dark" : "light");
+      });
+    })();
+
+    // Utilities
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Smooth scroll for in-page links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener("click", function (e) {
+        const target = document.querySelector(this.getAttribute("href"));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: "smooth" });
+        }
+      });
+    });
+
+    loadData();
+  </script>
+</body>
+</html>

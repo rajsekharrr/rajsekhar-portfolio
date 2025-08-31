@@ -1,0 +1,12 @@
+[
+  {
+    "title": "RAG-based Chatbot on OCI",
+    "description": "End-to-end retrieval-augmented generation chatbot using OCI Generative AI, Object Storage, and Vector Search. Focused on grounded answers and low-latency retrieval.",
+    "link": "https://github.com/your-github-username/oci-rag-chatbot"
+  },
+  {
+    "title": "AI Notes Summarizer",
+    "description": "Web app that ingests lecture notes and produces concise summaries with citations using LLMs and pgvector.",
+    "link": "https://github.com/your-github-username/ai-notes"
+  }
+]
