@@ -1,12 +1,12 @@
 [
   {
-    "title": "RAG-based Chatbot on OCI",
-    "description": "End-to-end retrieval-augmented generation chatbot using OCI Generative AI, Object Storage, and Vector Search. Focused on grounded answers and low-latency retrieval.",
-    "link": "https://github.com/your-github-username/oci-rag-chatbot"
+    "title": "EduMadad — AI Student Loan Assistance",
+    "description": "AI-powered platform to guide students through loan applications by providing personalized loan options, eligibility checks, and repayment planning using NLP and ML models.",
+    "link": "https://github.com/rajsekharrr"
   },
   {
-    "title": "AI Notes Summarizer",
-    "description": "Web app that ingests lecture notes and produces concise summaries with citations using LLMs and pgvector.",
-    "link": "https://github.com/your-github-username/ai-notes"
+    "title": "Toqsy — AI Conversation Starter(building..)",
+    "description": "AI assistant that helps users start and sustain real conversations by suggesting context-aware openers and follow-ups. Currently under development with LLMs and fine-tuned prompts.",
+    "link": "https://github.com/rajsekharrr"
   }
 ]
